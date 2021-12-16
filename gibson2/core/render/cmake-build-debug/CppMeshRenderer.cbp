@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CppMeshRenderer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\pybind11\;CMake Files\pybind11\tools\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MeshRendererContext">
+				<Option output="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/MeshRendererContext.cpython-36m-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_GLAD"/>
+					<Add directory="/home/fei/Development/gibsonv2/gibson2/core/render/glad"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/fei/Development/gibsonv2/gibson2/core/render/pybind11/include"/>
+					<Add directory="/usr/include/python3.6m"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 MeshRendererContext"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MeshRendererContext/fast">
+				<Option output="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/MeshRendererContext.cpython-36m-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_GLAD"/>
+					<Add directory="/home/fei/Development/gibsonv2/gibson2/core/render/glad"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/fei/Development/gibsonv2/gibson2/core/render/pybind11/include"/>
+					<Add directory="/usr/include/python3.6m"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 MeshRendererContext/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyobjloader">
+				<Option output="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/tinyobjloader.cpython-36m-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_GLAD"/>
+					<Add directory="/home/fei/Development/gibsonv2/gibson2/core/render/glad"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/fei/Development/gibsonv2/gibson2/core/render/pybind11/include"/>
+					<Add directory="/usr/include/python3.6m"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 tinyobjloader"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyobjloader/fast">
+				<Option output="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/tinyobjloader.cpython-36m-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_GLAD"/>
+					<Add directory="/home/fei/Development/gibsonv2/gibson2/core/render/glad"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/fei/Development/gibsonv2/gibson2/core/render/pybind11/include"/>
+					<Add directory="/usr/include/python3.6m"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 tinyobjloader/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="query_devices">
+				<Option output="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/query_devices" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_GLAD"/>
+					<Add directory="/home/fei/Development/gibsonv2/gibson2/core/render/glad"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 query_devices"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="query_devices/fast">
+				<Option output="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/query_devices" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_GLAD"/>
+					<Add directory="/home/fei/Development/gibsonv2/gibson2/core/render/glad"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 query_devices/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_device">
+				<Option output="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/test_device" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_GLAD"/>
+					<Add directory="/home/fei/Development/gibsonv2/gibson2/core/render/glad"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_device"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_device/fast">
+				<Option output="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/test_device" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_GLAD"/>
+					<Add directory="/home/fei/Development/gibsonv2/gibson2/core/render/glad"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_device/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fei/Development/gibsonv2/gibson2/core/render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fei/Development/gibsonv2/gibson2/core/render/cpp/Mesh_renderer.cpp">
+			<Option target="MeshRendererContext"/>
+		</Unit>
+		<Unit filename="/home/fei/Development/gibsonv2/gibson2/core/render/cpp/query_devices.cpp">
+			<Option target="query_devices"/>
+		</Unit>
+		<Unit filename="/home/fei/Development/gibsonv2/gibson2/core/render/cpp/test_device.cpp">
+			<Option target="test_device"/>
+		</Unit>
+		<Unit filename="/home/fei/Development/gibsonv2/gibson2/core/render/cpp/tinyobjloader/bindings.cc">
+			<Option target="tinyobjloader"/>
+		</Unit>
+		<Unit filename="/home/fei/Development/gibsonv2/gibson2/core/render/cpp/tinyobjloader/tiny_obj_loader.cc">
+			<Option target="tinyobjloader"/>
+		</Unit>
+		<Unit filename="/home/fei/Development/gibsonv2/gibson2/core/render/cpp/tinyobjloader/tiny_obj_loader.h">
+			<Option target="tinyobjloader"/>
+		</Unit>
+		<Unit filename="/home/fei/Development/gibsonv2/gibson2/core/render/glad/egl.cpp">
+			<Option target="MeshRendererContext"/>
+			<Option target="query_devices"/>
+			<Option target="test_device"/>
+		</Unit>
+		<Unit filename="/home/fei/Development/gibsonv2/gibson2/core/render/glad/gl.cpp">
+			<Option target="MeshRendererContext"/>
+			<Option target="query_devices"/>
+			<Option target="test_device"/>
+		</Unit>
+		<Unit filename="/home/fei/Development/gibsonv2/gibson2/core/render/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/fei/Development/gibsonv2/gibson2/core/render/pybind11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\pybind11\"/>
+		</Unit>
+		<Unit filename="/home/fei/Development/gibsonv2/gibson2/core/render/pybind11/tools/FindPythonLibsNew.cmake">
+			<Option virtualFolder="CMake Files\pybind11\tools\"/>
+		</Unit>
+		<Unit filename="/home/fei/Development/gibsonv2/gibson2/core/render/pybind11/tools/pybind11Tools.cmake">
+			<Option virtualFolder="CMake Files\pybind11\tools\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

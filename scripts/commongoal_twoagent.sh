@@ -1,0 +1,1 @@
+python ../demo.py -n1 --auto_gpu_config 1 --total_num_scenes 1 --task_config ../config/CommonGoal_two_locobot.yaml

@@ -1,0 +1,79 @@
+# scene
+scene: building
+is_interactive: false
+build_graph: true
+load_texture: true
+Use_CUDA: True
+
+trav_map_resolution: 0.1
+trav_map_erosion: 2
+
+# robot
+robot: [Locobot, Locobot, Locobot, Locobot]
+is_discrete: false
+linear_velocity: 1.
+angular_velocity: 1.5707963267948966
+
+# task, observation and action
+task: imagegoal #
+task_type: specific
+reset_file_root: ../dataset/specificgoal/train/
+# target_dist_min: [1.5, 3., 5.]
+# target_dist_max: [3., 5., 10.]
+initial_pos_z_offset: 0.1
+additional_states_dim: 4
+
+# reward
+reward_type: geodesic
+norm_reward: false
+success_reward: 0.0
+slack_reward: 0.0
+potential_reward_weight: 1.0
+collision_reward_weight: 0.0
+collision_ignore_link_a_ids: [1, 2, 3, 4]  # ignore collisions with these robot links 0 is base joint
+
+# termination condition
+dist_tol: 1.
+dist_tol_train: 0.36
+max_episode_length: 80
+
+# sensor spec
+output: [panorama_egomap]
+fisheye: false
+image_width: 128
+image_height: 128
+panorama_width: 512
+panorama_height: 128
+vertical_fov: 90
+# depth
+depth_low : 0.1
+depth_high: 10.0
+
+# visual objects
+visual_object_at_initial_target_pos: true
+target_visual_object_visible_to_agent: false
+
+# scene id
+# train
+scenes_id: ['Hanson', 'Lakeville', 'Merom', 'Pinesdale', 'Forkland', 'Wainscott', 'Newfields', 'Ranchester',
+             'Hiteman', 'Leonardo', 'Onaga', 'Pomaria', 'Stockman', 'Tolstoy', 'Cosmos', 'Benevolence',
+             'Woodbine', 'Beechwood', 'Mifflinburg', 'Coffeen', 'Allensville', 'Klickitat', 'Marstons',
+             'Lindenwood', 'Shelbyville']
+# test
+# scenes_id: ['Uvalda', 'Muleshoe', 'Noxapater', 'McDade', 'Ihlen']
+
+# val
+# scenes_id: ['Darden', 'Markleeville', 'Wiconisco', 'Corozal', 'Collierville']
+
+episode_num: 10000
+
+# map hyper
+map_pred_threshold: 0.5
+map_resolution: 10
+map_size_cm: 3840
+global_downscaling: 2
+vision_range: 64
+
+USE_CUDA: true
+
+seed: 0
